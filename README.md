@@ -1,7 +1,10 @@
 # TT-Sprint_4_Project
 The project for sprint 4
 
+In order to view the application associated with the code in app.py, go to this link: https://tt-sprint-4-project.onrender.com
 
+This application opens the vehicles_us.csv data and and allows the user to apply various filtering methods that are outlined in more detail below.
+In addition to opening the file, it also applies all preprocessing functions to the data as well - that is outlined in the code in app.py.
 
 Summary of EDA: Main concern is missing values. 
 	-- Price:       Will replace missing values with average for that model and year
