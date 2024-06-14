@@ -108,7 +108,7 @@ st.subheader('Raw Data Viewer')
 st.write(df_vhs)
 
 # Histogram for Price across all vehicles
-price_hist = px.histogram(df_vhs, x='Price', color='condition', title='Distribution of All Vehicle Prices')
+price_hist = px.histogram(df_vhs, x='Price', color='Condition', title='Distribution of All Vehicle Prices')
 
 # Box plot for price by manufacturer
 price_box_manu = px.box(df_vhs, x='Manufacturer', y='Price', title='Price by Manufacturer')
